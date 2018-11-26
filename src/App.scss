@@ -1,0 +1,78 @@
+.App {
+  padding: 25px;
+  background-color: #c9f8d3;
+  font-size: 14px;
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+img {
+  width: 150px;
+  margin: 50px;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  &:hover {
+    color: red;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  .header-txt {
+    margin: auto;
+  }
+  margin-bottom: 50px;
+}
+
+.main {
+  ul.my-skills {
+    display: inline-block;
+    li {
+      display: inline-block;
+      background-color: #cccccc;
+      padding: 5px;
+      margin: 5px 5px;
+      border-radius: 5px;
+    }
+  }
+}
+
+.contacts-wrap {
+  div {
+    padding: 5px;
+    margin: 5px 0;
+    a {
+      display: block;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+  .photo {
+    margin: 0 auto;
+  }
+}
