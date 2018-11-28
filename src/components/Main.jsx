@@ -20,7 +20,7 @@ export default class Main extends Component {
       "React-Router"
     ],
     workes: [
-      "https://github.com/kraken1970/BarberFinish",
+      "https://github.com/kraken1970/BarberShop",
       "https://github.com/kraken1970/Technomart",
       "https://github.com/kraken1970/snowborb-shop",
       "https://github.com/kraken1970/Baikal-I-Shop",
