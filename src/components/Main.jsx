@@ -98,7 +98,7 @@ export default class Main extends Component {
           </ul>
         </div>
         <div className="portfolio">
-          <h3>Ссылки на выполненые работы: </h3>
+          <h2>Ссылки на выполненые работы: </h2>
           <ul className="list-worked">
             {this.state.workes.map((work, index) => {
               return (
