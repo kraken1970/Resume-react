@@ -32,37 +32,44 @@ export default class Main extends Component {
       {
         screen: todo,
         deploy: "https://todo-85af1.firebaseapp.com/",
-        sourceCode: "https://github.com/kraken1970/New_Todo-react"
+        sourceCode: "https://github.com/kraken1970/New_Todo-react",
+        head: "Todo List React"
       },
       {
         screen: quiz,
         deploy: "https://quiz-react-95dda.firebaseapp.com/",
-        sourceCode: "https://github.com/kraken1970/Quiz-react"
+        sourceCode: "https://github.com/kraken1970/Quiz-react",
+        head: "Quiz React"
       },
       {
         screen: bookshop,
         deploy: "https://books-shop-react-2f877.firebaseapp.com/",
-        sourceCode: "https://github.com/kraken1970/books-shop-react"
+        sourceCode: "https://github.com/kraken1970/books-shop-react",
+        head: "Books Shop React"
       },
       {
         screen: barbeshop,
         deploy: "https://barber-shop-2f8b7.firebaseapp.com/",
-        sourceCode: "https://github.com/kraken1970/BarberShop"
+        sourceCode: "https://github.com/kraken1970/BarberShop",
+        head: "BarberShop"
       },
       {
         screen: tecnomart,
         deploy: "https://technomarket-e64f1.firebaseapp.com/",
-        sourceCode: "https://github.com/kraken1970/Technomart"
+        sourceCode: "https://github.com/kraken1970/Technomart",
+        head: "Techno Market"
       },
       {
         screen: device,
         deploy: "https://device-96603.firebaseapp.com/",
-        sourceCode: "https://github.com/kraken1970/Device12"
+        sourceCode: "https://github.com/kraken1970/Device12",
+        head: "Device Market"
       },
       {
         screen: baikal,
         deploy: "https://baical-deb6d.firebaseapp.com/",
-        sourceCode: "https://github.com/kraken1970/Baikal-I-Shop"
+        sourceCode: "https://github.com/kraken1970/Baikal-I-Shop",
+        head: "I-Shop Baical"
       }
     ]
   };
@@ -91,29 +98,12 @@ export default class Main extends Component {
           </ul>
         </div>
         <div className="portfolio">
-          <h3>Тестовое задание, размещенное на fairebase:</h3>
-          <li className="react-in-web">
-            <a
-              href="https://quiz-react-95dda.firebaseapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://quiz-react-95dda.firebaseapp.com/
-            </a>
-            <p>Исходник:</p>
-            <a
-              href="https://github.com/kraken1970/Quiz-react"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://github.com/kraken1970/Quiz-react
-            </a>
-          </li>
           <h3>Ссылки на выполненые работы: </h3>
           <ul className="list-worked">
             {this.state.workes.map((work, index) => {
               return (
                 <li key={index} className="worked">
+                  <h4>{work.head}</h4>
                   <p>
                     <a
                       href={work.deploy}

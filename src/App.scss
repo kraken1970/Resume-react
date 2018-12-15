@@ -73,6 +73,24 @@ a {
   }
 }
 
+.list-worked {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-gap: 20px;
+}
+
+.worked {
+  text-align: center;
+  img {
+    margin: 0;
+  }
+}
+
+.reposit-link {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
   .header {
     flex-direction: column;
