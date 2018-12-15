@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 
+import baikal from "../screen/baikal.png";
+import barbeshop from "../screen/barbershop.png";
+import bookshop from "../screen/bookshop.png";
+import device from "../screen/device.png";
+import quiz from "../screen/quiz.png";
+import tecnomart from "../screen/technomart.png";
+import todo from "../screen/todo.png";
+
 export default class Main extends Component {
   state = {
     skills: [
@@ -15,21 +23,47 @@ export default class Main extends Component {
       "Yandex Maps API",
       "Scss, Postcss",
       "Gulp",
+      "Parcel",
       "React",
       "React-Redux",
       "React-Router"
     ],
     workes: [
-      "https://github.com/kraken1970/BarberShop",
-      "https://github.com/kraken1970/Technomart",
-      "https://github.com/kraken1970/snowborb-shop",
-      "https://github.com/kraken1970/Baikal-I-Shop",
-      "https://github.com/kraken1970/RassiaNord18",
-      "https://github.com/kraken1970/admin_mdb-4",
-      "https://github.com/kraken1970/grid-example",
-      "https://github.com/kraken1970/My_To-Do_React",
-      "https://github.com/kraken1970/Cross-Zero-React",
-      "https://github.com/kraken1970/books-shop-react"
+      {
+        screen: todo,
+        deploy: "https://todo-85af1.firebaseapp.com/",
+        sourceCode: "https://github.com/kraken1970/New_Todo-react"
+      },
+      {
+        screen: quiz,
+        deploy: "https://quiz-react-95dda.firebaseapp.com/",
+        sourceCode: "https://github.com/kraken1970/Quiz-react"
+      },
+      {
+        screen: bookshop,
+        deploy: "https://books-shop-react-2f877.firebaseapp.com/",
+        sourceCode: "https://github.com/kraken1970/books-shop-react"
+      },
+      {
+        screen: barbeshop,
+        deploy: "https://barber-shop-2f8b7.firebaseapp.com/",
+        sourceCode: "https://github.com/kraken1970/BarberShop"
+      },
+      {
+        screen: tecnomart,
+        deploy: "https://technomarket-e64f1.firebaseapp.com/",
+        sourceCode: "https://github.com/kraken1970/Technomart"
+      },
+      {
+        screen: device,
+        deploy: "https://device-96603.firebaseapp.com/",
+        sourceCode: "https://github.com/kraken1970/Device12"
+      },
+      {
+        screen: baikal,
+        deploy: "https://baical-deb6d.firebaseapp.com/",
+        sourceCode: "https://github.com/kraken1970/Baikal-I-Shop"
+      }
     ]
   };
 
@@ -76,13 +110,29 @@ export default class Main extends Component {
             </a>
           </li>
           <h3>Ссылки на выполненые работы: </h3>
-          <ul>
+          <ul className="list-worked">
             {this.state.workes.map((work, index) => {
               return (
-                <li key={index}>
-                  <a href={work} target="_blank" rel="noopener noreferrer">
-                    {work}
-                  </a>
+                <li key={index} className="worked">
+                  <p>
+                    <a
+                      href={work.deploy}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={work.screen} alt="screen" />
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      className="reposit-link"
+                      href={work.sourceCode}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Посмотреть код в репозитории
+                    </a>
+                  </p>
                 </li>
               );
             })}
