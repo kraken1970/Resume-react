@@ -1,7 +1,9 @@
 .App {
   width: 100vmax;
-  padding: 5px 10px;
-  background-color: #c9f8d3;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 5px 15px;
+  background-color: #dbe3fe;
   font-size: 14px;
   h1 {
     text-align: center;
@@ -71,6 +73,7 @@ a {
       text-decoration: none;
       font-weight: bold;
       font-size: 16px;
+      color: #2c0666;
       &:hover {
         color: red;
       }
@@ -89,7 +92,7 @@ a {
   img {
     height: 45vh;
     margin: 0;
-    transition: transform 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
     &:hover {
       margin: 60px 0;
       transform: scale(1.25);
