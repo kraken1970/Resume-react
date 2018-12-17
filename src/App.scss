@@ -83,7 +83,7 @@ a {
 
 .list-worked {
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 1fr 1fr;
 }
 
 .worked {
@@ -95,7 +95,7 @@ a {
     transition: all 0.7s ease-in-out;
     &:hover {
       margin: 60px 0;
-      transform: scale(1.25);
+      transform: scale(1.15);
     }
   }
 }
