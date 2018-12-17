@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import baikal from "../screen/baikal.png";
 import barbeshop from "../screen/barbershop.png";
 import bookshop from "../screen/bookshop.png";
-import device from "../screen/device.png";
+// import device from "../screen/device.png";
 import quiz from "../screen/quiz.png";
 import tecnomart from "../screen/technomart.png";
 import todo from "../screen/todo.png";
@@ -59,12 +59,12 @@ export default class Main extends Component {
         sourceCode: "https://github.com/kraken1970/Technomart",
         head: "Techno Market"
       },
-      {
-        screen: device,
-        deploy: "https://device-96603.firebaseapp.com/",
-        sourceCode: "https://github.com/kraken1970/Device12",
-        head: "Device Market"
-      },
+      // {
+      //   screen: device,
+      //   deploy: "https://device-96603.firebaseapp.com/",
+      //   sourceCode: "https://github.com/kraken1970/Device12",
+      //   head: "Device Market"
+      // },
       {
         screen: baikal,
         deploy: "https://baical-deb6d.firebaseapp.com/",
