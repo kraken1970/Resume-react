@@ -11,7 +11,7 @@ const Contacts = () => {
         </a>
       </div>
       <div>
-        <a href="viber://chat?number=+380668031813" title="Звонок через Viber">
+        <a href="viber://add?number=+380668031813" title="Звонок через Viber">
           Viber: +380668031813
         </a>
       </div>
