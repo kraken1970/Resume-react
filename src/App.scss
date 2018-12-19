@@ -3,8 +3,10 @@
   max-width: 100%;
   overflow-x: hidden;
   padding: 5px 15px 25px 15px;
-  background-color: #dbe3fe;
+  background-color: #2744a6;
+  color: #ffffff;
   font-size: 14px;
+  font-family: sans-serif;
   h1 {
     text-align: center;
     font-size: 20px;
@@ -48,7 +50,8 @@ a {
     display: inline-block;
     li {
       display: inline-block;
-      background-color: #cccccc;
+      background-color: #e1dfc7;
+      color: #000000;
       padding: 5px;
       margin: 5px 5px;
       border-radius: 5px;
@@ -73,12 +76,36 @@ a {
       text-decoration: none;
       font-weight: bold;
       font-size: 16px;
-      color: #2c0666;
+      color: #fff;
+      text-decoration: underline;
+      width: 33vw;
+      padding: 25px;
+      padding-left: 80px;
+      margin: 10px 0;
+      background-image: url(../src/icon/phone3.png);
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 17%;
+      transition: all 0.5s ease-in-out;
       &:hover {
         color: red;
+        text-decoration: none;
+        background-size: 13%;
       }
     }
   }
+}
+
+.link-viber {
+  background-image: url(../src/icon/viber.png) !important;
+}
+
+.link-skype {
+  background-image: url(../src/icon/skype.png) !important;
+}
+
+.link-mail {
+  background-image: url(../src/icon/email2.png) !important;
 }
 
 .list-worked {
@@ -105,6 +132,8 @@ a {
 .reposit-link {
   text-transform: uppercase;
   font-weight: bold;
+  color: #ffffff;
+  text-shadow: 5px 5px 10px black;
 }
 
 @media only screen and (max-width: 1080px) {
