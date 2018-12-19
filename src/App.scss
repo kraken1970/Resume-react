@@ -153,4 +153,10 @@ a {
   .photo {
     margin: 0 auto;
   }
+  .contacts-wrap a {
+    background-size: 30%;
+    &:hover {
+      background-size: 25%;
+    }
+  }
 }
