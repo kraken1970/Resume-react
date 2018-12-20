@@ -85,12 +85,12 @@ a {
       background-image: url(../src/icon/phone3.png);
       background-repeat: no-repeat;
       background-position: left center;
-      background-size: 15%;
+      background-size: 64px 64px;
       transition: all 0.5s ease-in-out;
       &:hover {
         color: red;
         text-decoration: none;
-        background-size: 12%;
+        background-size: 50px 50px;
       }
     }
   }
@@ -152,11 +152,5 @@ a {
   }
   .photo {
     margin: 0 auto;
-  }
-  .contacts-wrap a {
-    background-size: 30%;
-    &:hover {
-      background-size: 25%;
-    }
   }
 }
