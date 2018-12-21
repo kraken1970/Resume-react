@@ -12,7 +12,8 @@ const Contacts = () => {
       </div>
       <div className="contact-wrap">
         <a
-          href="viber://add?number=+380668031813"
+          href="viber://pa?chat+380668031813=+380668031813"
+          // href="viber:+380668031813"
           title="Звонок через Viber"
           className="link-viber"
         >
