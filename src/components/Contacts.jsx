@@ -12,12 +12,20 @@ const Contacts = () => {
       </div>
       <div className="contact-wrap">
         <a
-          href="viber://pa?chat+380668031813=+380668031813"
-          // href="viber:+380668031813"
+          href="viber://chat?number=380668031813"
           title="Звонок через Viber"
           className="link-viber"
         >
-          Viber: +380668031813
+          Viber: +380668031813 <br />
+          Связь через Viber с ПК
+        </a>
+        <a
+          href="http://msng.link/vi/380668031813"
+          title="Напишите мне в Viber"
+          className="link-viber"
+        >
+          Viber: +380668031813 <br />
+          Набрать Viber с мобильного
         </a>
       </div>
       <div className="contact-wrap">
