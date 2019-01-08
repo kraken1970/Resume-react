@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 
 import baikal from "../screen/baikal.png";
-import barbeshop from "../screen/barbershop.png";
+import barbershop from "../screen/barbershop.png";
 import bookshop from "../screen/bookshop.png";
 import stardb from "../screen/stardb.png";
 import quiz from "../screen/quiz.png";
-import tecnomart from "../screen/technomart.png";
+import technomart from "../screen/technomart.png";
 import todo from "../screen/todo.png";
+import gridTest1 from "../screen/gridTest1.jpg";
 
 export default class Main extends Component {
   state = {
@@ -51,16 +52,16 @@ export default class Main extends Component {
         screen: stardb,
         deploy: "https://starbook-a0b8c.firebaseapp.com/",
         sourceCode: "https://github.com/kraken1970/Star-Book",
-        head: "Star Wars DB"
+        head: "Star Wars DB React"
       },
       {
-        screen: barbeshop,
+        screen: barbershop,
         deploy: "https://barber-shop-2f8b7.firebaseapp.com/",
         sourceCode: "https://github.com/kraken1970/BarberShop",
         head: "BarberShop"
       },
       {
-        screen: tecnomart,
+        screen: technomart,
         deploy: "https://technomarket-e64f1.firebaseapp.com/",
         sourceCode: "https://github.com/kraken1970/Technomart",
         head: "Techno Market"
@@ -70,6 +71,12 @@ export default class Main extends Component {
         deploy: "https://baical-deb6d.firebaseapp.com/",
         sourceCode: "https://github.com/kraken1970/Baikal-I-Shop",
         head: "I-Shop Baical"
+      },
+      {
+        screen: gridTest1,
+        deploy: "https://training-grid-e0997.firebaseapp.com/",
+        sourceCode: "https://github.com/kraken1970/Training-grid",
+        head: "Grid Layout test"
       }
     ]
   };
@@ -80,7 +87,7 @@ export default class Main extends Component {
         <div className="request">
           <h3>Требования к будущей работе:</h3>
           <p>Должность:Верстальщик HTML, React</p>
-          <p>Зарплата (минимум): 750USD</p>
+          <p>Зарплата (минимум): 850USD</p>
           <p>Режим работы: удаленно</p>
           <p>График работы: полный рабочий день</p>
         </div>
