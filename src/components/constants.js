@@ -5,7 +5,7 @@ import stardb from "../screen/stardb.png";
 import quiz from "../screen/quiz.png";
 import technomart from "../screen/technomart.png";
 import todo from "../screen/todo.png";
-import gridTest1 from "../screen/gridTest1.jpg";
+// import gridTest1 from "../screen/gridTest1.jpg";
 import resume from "../screen/resume.jpg";
 
 export const skills = [
@@ -31,8 +31,8 @@ export const workes = [
   {
     screen: resume,
     deploy: "https://kraken1970.github.io/",
-    sourceCode: "https://github.com/kraken1970/New_Todo-react",
-    head: "Todo List React"
+    sourceCode: "https://github.com/kraken1970/Resume-react",
+    head: "My resume React"
   },
   {
     screen: todo,
@@ -75,11 +75,11 @@ export const workes = [
     deploy: "https://baical-deb6d.firebaseapp.com/",
     sourceCode: "https://github.com/kraken1970/Baikal-I-Shop",
     head: "I-Shop Baical"
-  },
-  {
-    screen: gridTest1,
-    deploy: "https://training-grid-e0997.firebaseapp.com/",
-    sourceCode: "https://github.com/kraken1970/Training-grid",
-    head: "Grid Layout test"
   }
+  // {
+  //   screen: gridTest1,
+  //   deploy: "https://training-grid-e0997.firebaseapp.com/",
+  //   sourceCode: "https://github.com/kraken1970/Training-grid",
+  //   head: "Grid Layout test"
+  // }
 ];
