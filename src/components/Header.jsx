@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="photo">
-        <img src={p2} alt="" className="img-photo" />
+        <img src={p2} alt="my-person" className="img-photo" />
       </div>
       <div className="header-txt">
         <p>Минин Сергей Викторович</p>
@@ -15,8 +15,8 @@ const Header = () => {
           Гражданство: Донецкая народная республика, <br />
           Украина
         </p>
-        <p>Профессиональная сфера: IT, компьютеры, работа в Интернете</p>
-        <p>Образование:МИЭТ(незаконченное)</p>
+        <p>Профессиональная сфера: IT, компьютеры, связь, работа в Интернете</p>
+        <p>Образование: МИЭТ(МПиТК незаконченное)</p>
       </div>
     </header>
   );
