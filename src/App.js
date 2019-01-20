@@ -10,6 +10,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Резюме</h1>
+        <a className="resumeSite" href="https://kraken1970.github.io">
+          Сайт резюме: https://kraken1970.github.io
+        </a>{" "}
         <Header />
         <Main />
         <Contacts />

@@ -39,11 +39,11 @@ const Contacts = () => {
       </div>
       <div className="contact-wrap">
         <a
-          href="mailto:S.V.Minin@gmail.com"
+          href="mailto:s.v.minin70@gmail.com"
           title="Напишите мне"
           className="link-mail"
         >
-          E-mail: S.V.Minin@gmail.com
+          E-mail: s.v.minin70@gmail.com
         </a>
       </div>
     </div>
