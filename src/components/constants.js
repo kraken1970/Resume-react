@@ -5,6 +5,7 @@ import stardb from "../screen/stardb.png";
 import quiz from "../screen/quiz.png";
 import technomart from "../screen/technomart.png";
 import todo from "../screen/todo.png";
+import funbox from "../screen/funbox.jpg";
 // import gridTest1 from "../screen/gridTest1.jpg";
 import resume from "../screen/resume.jpg";
 
@@ -29,10 +30,10 @@ export const skills = [
 
 export const workes = [
   {
-    screen: resume,
-    deploy: "https://kraken1970.github.io/",
-    sourceCode: "https://github.com/kraken1970/Resume-react",
-    head: "My resume React"
+    screen: funbox,
+    deploy: "https://funbox-baea1.firebaseapp.com/",
+    sourceCode: "https://github.com/kraken1970/funbox-test",
+    head: "Test for Funbox"
   },
   {
     screen: todo,
