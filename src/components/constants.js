@@ -33,31 +33,36 @@ export const workes = [
     screen: funbox,
     deploy: "https://funbox-baea1.firebaseapp.com/",
     sourceCode: "https://github.com/kraken1970/funbox-test",
-    head: "Test for Funbox"
+    head: "Test for Funbox",
+    head2: "SPA React"
   },
   {
     screen: todo,
     deploy: "https://todo-85af1.firebaseapp.com/",
     sourceCode: "https://github.com/kraken1970/New_Todo-react",
-    head: "Todo List React"
+    head: "Todo List React",
+    head2: "SPA React"
   },
   {
     screen: quiz,
     deploy: "https://quiz-react-95dda.firebaseapp.com/",
     sourceCode: "https://github.com/kraken1970/Quiz-react",
-    head: "Quiz React"
+    head: "Quiz React",
+    head2: "SPA React"
   },
   {
     screen: bookshop,
     deploy: "https://books-shop-react-2f877.firebaseapp.com/",
     sourceCode: "https://github.com/kraken1970/books-shop-react",
-    head: "Books Shop React"
+    head: "Books Shop React",
+    head2: "SPA React"
   },
   {
     screen: stardb,
     deploy: "https://starbook-a0b8c.firebaseapp.com/",
     sourceCode: "https://github.com/kraken1970/Star-Book",
-    head: "Star Wars DB React"
+    head: "Star Wars DB React",
+    head2: "SPA React"
   },
   {
     screen: barbershop,

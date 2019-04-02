@@ -38,6 +38,7 @@ const Main = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <h5 className="smallHead">{work.head2}</h5>
                     <img src={work.screen} alt="screen" />
                   </a>
                 </p>
