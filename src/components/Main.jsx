@@ -7,7 +7,8 @@ const Main = () => {
     <main className="main">
       <div className="request">
         <h3>Требования к будущей работе:</h3>
-        <p>Должность:Верстальщик HTML, React</p>
+        <p>Должность:Разработчик React</p>
+        <p>Верстальщик HTML, React</p>
         <p>Зарплата (минимум): 850USD</p>
         <p>Режим работы: удаленно</p>
         <p>График работы: полный рабочий день</p>
@@ -39,6 +40,7 @@ const Main = () => {
                     rel="noopener noreferrer"
                   >
                     <h5 className="smallHead">{work.head2}</h5>
+                    <p className="descr">{work.description}</p>
                     <img src={work.screen} alt="screen" />
                   </a>
                 </p>

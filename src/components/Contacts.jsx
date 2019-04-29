@@ -46,6 +46,15 @@ const Contacts = () => {
           E-mail: s.v.minin70@gmail.com
         </a>
       </div>
+      <div className="contact-wrap">
+        <a
+          href="tg://resolve?domain=@Serg_Minin"
+          title="Напишите мне"
+          className="link-telegram"
+        >
+          Telegram Сергей Минин
+        </a>
+      </div>
     </div>
   );
 };
