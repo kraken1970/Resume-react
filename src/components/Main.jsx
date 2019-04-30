@@ -31,7 +31,11 @@ const Main = () => {
         <ul className="list-worked">
           {workes.map((work, index) => {
             return (
-              <li key={index} className="worked">
+              <li
+                key={index}
+                className="worked"
+                title="Кликни для просмотра реализации."
+              >
                 <h4>{work.head}</h4>
                 <p>
                   <a
